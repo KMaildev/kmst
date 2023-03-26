@@ -229,8 +229,207 @@
                                 </ul>
                             </div>
                         </div>
+
+                        <div class="pd-details-solution">
+                            <div class="pd-details-solution-img-box d-flex align-items-center">
+                                <div class="pd-details-solution-img">
+                                    <img src="{{ asset('data/our-company.jpeg') }}" alt="">
+                                </div>
+                            </div>
+                        </div>
                     </div>
                 </div>
+            </div>
+        </div>
+    </div>
+
+
+    <div id="payment-method" class="tp-payment__area">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-xl-7">
+                    <div class="tp-payment__title-box text-center mb-55">
+                        <h3 class="tp-section-title-lg" style="font-szie: 28px;">
+                            KAUNG MYAT SAN THU CO.,LTD
+                        </h3>
+                        <p>
+                            Company Statement
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="row justify-content-center">
+                <div class="col-xl-12">
+                    <div class="row">
+                        <div class="col-md-6 mb-30">
+                            <div class="tp-payment__item tp-payment__bg-color-2 p-relative z-index wow tpfadeLeft"
+                                data-wow-duration=".9s" data-wow-delay=".3s">
+                                {{-- <div class="tp-payment__shape-4">
+                                    <center>
+                                        <img src="https://cdn-icons-png.flaticon.com/512/2421/2421314.png" alt=""
+                                            style="width: 50%;">
+                                    </center>
+                                </div> --}}
+                                <div class="tp-payment__shape-5">
+                                    <center>
+                                        <img src="https://cdn-icons-png.flaticon.com/512/2421/2421314.png" alt=""
+                                            style="width: 70%;">
+                                    </center>
+                                </div>
+
+                                <div class="tp-payment__shape-6">
+                                    <img src="assets/img/payment/hand.png" alt="">
+                                </div>
+                                <div class="tp-payment__shape-7">
+                                    <img src="assets/img/payment/coin-1.png" alt="">
+                                </div>
+                                <div class="tp-payment__shape-8">
+                                    <img src="assets/img/payment/coin-2.png" alt="">
+                                </div>
+                                <div class="tp-payment__content">
+                                    <h3 class="tp-payment__title">
+                                        Our Vision
+                                    </h3>
+                                    <p>
+                                        To enable the discovery of opportunities by providing consistently flexible
+                                        Recruitment solutions.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-md-6 mb-30">
+                            <div class="tp-payment__item tp-payment__bg-color-3 p-relative z-index wow tpfadeRight"
+                                data-wow-duration=".9s" data-wow-delay=".5s">
+                                <div class="tp-payment__shape-9">
+                                    <img src="assets/img/payment/payment-3.png" alt="">
+                                </div>
+                                <div class="tp-payment__shape-11">
+                                    <img src="assets/img/payment/message.png" alt="">
+                                </div>
+                                <div class="tp-payment__content">
+                                    <h3 class="tp-payment__title">
+                                        Our Mission
+                                    </h3>
+                                    <p>
+                                        To bring success to all of our clients by our relentless commitment to deliver the
+                                        highest quality talent more quickly, efficiently, intelligently and above all to
+                                        ensure the complete satisfaction of both the job applicant and the employer.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl-12 mb-30">
+                    <div class="tp-payment__item p-relative z-index wow tpfadeUp" data-wow-duration=".9s"
+                        data-wow-delay=".7s">
+                        <div class="tp-payment__shape-1">
+                            <img src="assets/img/payment/background.png" alt="">
+                        </div>
+                        <div class="row">
+                            <div class="col-md-6">
+                                <div class="tp-payment__content tp-payment__content-space">
+                                    <h3 class="tp-payment__title">
+                                        Our Values
+                                    </h3>
+                                    <p>
+                                        To deliver customized and cost-effective solutions to organizations across the globe
+                                        that gives them an edge over their competitors.
+                                        <br><br>
+                                        Identify the right talent and goals thus helping them secure the right jobs.
+                                    </p>
+                                    <a href="{{ route('contact.index') }}">
+                                        Contact Us
+                                        <i class="far fa-arrow-right"></i>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="tp-payment__shape-2">
+                                    <center>
+                                        <img src="https://cdn-icons-png.flaticon.com/512/3702/3702135.png" alt=""
+                                            style="width: 70%;">
+                                    </center>
+                                </div>
+                                <div class="tp-payment__shape-6">
+                                    <img src="assets/img/payment/hand.png" alt="">
+                                </div>
+                                <div class="tp-payment__shape-7">
+                                    <img src="assets/img/payment/coin-1.png" alt="">
+                                </div>
+                                <div class="tp-payment__shape-8">
+                                    <img src="assets/img/payment/coin-2.png" alt="">
+                                </div>
+                                {{-- <div class="tp-payment__shape-3 d-none d-sm-block">
+                                    <img src="assets/img/payment/get-paid.png" alt="">
+                                </div> --}}
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="row">
+
+                <div class="col-lg-12 col-md-12 col-sm-12" style="padding: 14px;">
+                    <h2 class="m-b10" style="color: #e93f33; text-shadow: 5px 5px 5px gray; font-weight: bold;">
+                        Company Company Certificate
+                    </h2>
+                </div>
+
+                <div class="col-lg-3 col-md-3 col-sm-12" style="padding: 14px;">
+                    <div class="p-a30 m-b30 radius-sm bg-gray clearfix">
+                        <img src="{{ asset('data/c1.png') }}" alt="" data-enlargeable=""
+                            style="object-position: top; width: 100%; height: 340px; object-fit: cover; background-size: corver; border: 2px solid #555;"
+                            class="img-enlargeable">
+                    </div>
+                </div>
+
+                <div class="col-lg-3 col-md-3 col-sm-12" style="padding: 14px;">
+                    <div class="p-a30 m-b30 radius-sm bg-gray clearfix">
+                        <img src="{{ asset('data/c2.png') }}" alt="" data-enlargeable=""
+                            style="object-position: top; width: 100%; height: 340px; object-fit: cover; background-size: corver; border: 2px solid #555;"
+                            class="img-enlargeable">
+                    </div>
+                </div>
+
+                <div class="col-lg-3 col-md-3 col-sm-12" style="padding: 14px;">
+                    <div class="p-a30 m-b30 radius-sm bg-gray clearfix">
+                        <img src="{{ asset('data/c3.png') }}" alt="" data-enlargeable=""
+                            style="object-position: top; width: 100%; height: 340px; object-fit: cover; background-size: corver; border: 2px solid #555;"
+                            class="img-enlargeable">
+                    </div>
+                </div>
+
+                <div class="col-lg-3 col-md-3 col-sm-12" style="padding: 14px;">
+                    <div class="p-a30 m-b30 radius-sm bg-gray clearfix">
+                        <img src="{{ asset('data/c4.png') }}" alt="" data-enlargeable=""
+                            style="object-position: top; width: 100%; height: 340px; object-fit: cover; background-size: corver; border: 2px solid #555;"
+                            class="img-enlargeable">
+                    </div>
+                </div>
+
+                <hr>
+                <div class="col-lg-12 col-md-12 col-sm-12" style="padding: 14px;">
+                    <h2 class="m-b10" style="color: #e93f33; text-shadow: 5px 5px 5px gray; font-weight: bold;">
+                        <center>
+                            Our Organization Chart
+                        </center>
+                    </h2>
+                </div>
+
+                <div class="col-lg-12 col-md-12 col-sm-12" style="padding: 14px;">
+                    <center>
+                        <div class="p-a30 m-b30 radius-sm bg-gray clearfix">
+                            <img src="{{ asset('data/org.png') }}" alt="" data-enlargeable=""
+                                style="object-position: top; width: 50%; height: auto; object-fit: cover; background-size: corver; border: 2px solid #555;"
+                                class="img-enlargeable">
+                        </div>
+                    </center>
+                </div>
+
             </div>
         </div>
     </div>
